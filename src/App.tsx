@@ -128,7 +128,7 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-teal-900 via-teal-800 to-slate-900"></div>
         <div className="absolute inset-0 bg-black/20"></div>
         
