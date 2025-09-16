@@ -148,8 +148,7 @@ function App() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Impulsamos la evolución digital de organizaciones públicas, ONGs y empresas 
-              con soluciones innovadoras y estrategias personalizadas.
+              Impulsamos la evolución digital de empresas y organizaciones públicas  con soluciones innovadoras y estrategias personalizadas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
