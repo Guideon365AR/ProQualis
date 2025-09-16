@@ -335,7 +335,7 @@ function App() {
               </div>
               
               <p className="text-slate-700 mb-6 leading-relaxed">
-                Transformación digital completa de la organización no gubernamental ABVR, 
+                Transformación digital completa de la Asoción de Bomberos Voluntarios de Rosario
                 optimizando sus procesos internos y mejorando su capacidad de impacto social 
                 a través de soluciones tecnológicas innovadoras.
               </p>
