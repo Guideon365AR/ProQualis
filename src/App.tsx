@@ -329,13 +329,13 @@ function App() {
                   <Heart className="h-8 w-8 text-orange-500" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-800">ABVR</h3>
+                  <h3 className="text-2xl font-bold text-slate-800">Bomberos Voluntarios</h3>
                   <p className="text-slate-600">ONG - Sector Social</p>
                 </div>
               </div>
               
               <p className="text-slate-700 mb-6 leading-relaxed">
-                Transformación digital completa de la Asoción de Bomberos Voluntarios de Rosario
+                Transformación digital completa de la Asociación de Bomberos Voluntarios de Rosario
                 optimizando sus procesos internos y mejorando su capacidad de impacto social 
                 a través de soluciones tecnológicas innovadoras.
               </p>
