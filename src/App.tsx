@@ -211,22 +211,10 @@ function App() {
                 features: ['Análisis de procesos', 'Automatización', 'Integración de sistemas']
               },
               {
-                icon: Shield,
-                title: 'Ciberseguridad',
-                description: 'Protección integral de datos y sistemas con las mejores prácticas de seguridad digital.',
-                features: ['Auditorías de seguridad', 'Implementación de controles', 'Capacitación']
-              },
-              {
                 icon: Zap,
                 title: 'Modernización Tecnológica',
                 description: 'Actualización de infraestructura y sistemas legacy hacia tecnologías modernas.',
                 features: ['Migración a la nube', 'Actualización de sistemas', 'Optimización']
-              },
-              {
-                icon: Users,
-                title: 'Capacitación Digital',
-                description: 'Formación integral del personal en herramientas y competencias digitales.',
-                features: ['Programas personalizados', 'Certificaciones', 'Seguimiento continuo']
               },
               {
                 icon: Target,
@@ -234,12 +222,6 @@ function App() {
                 description: 'Desarrollo de estrategias integrales para la transformación digital organizacional.',
                 features: ['Diagnóstico digital', 'Hoja de ruta', 'Métricas y KPIs']
               },
-              {
-                icon: Settings,
-                title: 'Gestión de Proyectos',
-                description: 'Dirección y gestión profesional de proyectos de transformación digital.',
-                features: ['Metodologías ágiles', 'Control de calidad', 'Gestión de riesgos']
-              }
             ].map((service, index) => (
               <div
                 key={index}
