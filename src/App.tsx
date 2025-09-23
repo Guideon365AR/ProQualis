@@ -375,7 +375,6 @@ function App() {
 
               <div className="space-y-4">
                 {[
-                  'Expertise en sector público y organizaciones sociales',
                   'Metodologías probadas y mejores prácticas',
                   'Equipo multidisciplinario de especialistas',
                   'Acompañamiento integral durante todo el proceso'
