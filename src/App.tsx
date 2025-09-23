@@ -173,7 +173,7 @@ function App() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               { number: 'Ágiles', label: 'Metodologías Ágiles', icon: Award },
-              { number: 'Expertos', label: 'Equipo Especializado', icon: TrendingUp },
+              { number: 'Experiencia', label: 'Equipo Especializado', icon: TrendingUp },
               { number: '100%', label: 'Satisfacción Cliente', icon: CheckCircle },
               { number: '24/7', label: 'Soporte Técnico', icon: Shield }
             ].map((stat, index) => (
