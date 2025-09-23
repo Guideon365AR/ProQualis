@@ -273,7 +273,7 @@ function App() {
               </div>
               
               <p className="text-slate-700 mb-6 leading-relaxed">
-                Implementación integral del Sistema de Gestión del Servicio de Resguardo Patrimonial (SRP), que revolucionó la gestión administrativa y operativa del Servicio, mediante una digitalización  integral, automatización de procesos y sistemas de inteligencia preventiva basados en datos.
+                Implementación integral del Sistema de Gestión del Servicio de Resguardo Patrimonial (SRP), que revolucionó la gestión administrativa y operativa del Servicio mediante una digitalización integral y sistemas de inteligencia preventiva basados en datos.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-6">
