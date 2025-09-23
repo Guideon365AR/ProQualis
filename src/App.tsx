@@ -365,8 +365,7 @@ function App() {
                 Sobre ProQualis
               </h2>
               <p className="text-xl text-slate-600 mb-6 leading-relaxed">
-                Somos una consultora especializada en transformación digital con más de 15 años 
-                de experiencia ayudando a organizaciones a evolucionar hacia el futuro digital.
+                Somos una consultora especializada en transformación digital ayudando a organizaciones a evolucionar hacia el futuro digital.
               </p>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Nuestro enfoque integral combina estrategia, tecnología y gestión del cambio 
