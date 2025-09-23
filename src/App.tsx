@@ -374,13 +374,6 @@ function App() {
                 de la mano con nuestros clientes para entender sus necesidades específicas y 
                 desarrollar soluciones personalizadas que generen valor real y duradero.
               </p>
-                ].map((item, index) => (
-                  <div key={index} className="flex items-center">
-                    <CheckCircle className="h-6 w-6 text-teal-500 mr-3 flex-shrink-0" />
-                    <span className="text-slate-700">{item}</span>
-                  </div>
-                ))}
-              </div>
             </div>
 
             <div className="relative">
