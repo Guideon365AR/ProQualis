@@ -370,7 +370,14 @@ function App() {
               </p>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Nuestro enfoque integral combina estrategia, tecnología y gestión del cambio 
-                para garantizar transformaciones exitosas y sostenibles en el tiempo.
+                para garantizar transformaciones exitosas y sostenibles en el tiempo. Trabajamos 
+                de la mano con nuestros clientes para entender sus necesidades específicas y 
+                desarrollar soluciones personalizadas que generen valor real y duradero.
+              </p>
+              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+                Con un equipo multidisciplinario de especialistas certificados, aplicamos 
+                metodologías probadas y las mejores prácticas de la industria para asegurar 
+                el éxito de cada proyecto de transformación digital.
               </p>
 
               <div className="space-y-4">
