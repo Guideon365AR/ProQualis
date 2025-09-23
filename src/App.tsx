@@ -374,17 +374,6 @@ function App() {
                 de la mano con nuestros clientes para entender sus necesidades específicas y 
                 desarrollar soluciones personalizadas que generen valor real y duradero.
               </p>
-              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Con un equipo multidisciplinario de especialistas certificados, aplicamos 
-                metodologías probadas y las mejores prácticas de la industria para asegurar 
-                el éxito de cada proyecto de transformación digital.
-              </p>
-
-              <div className="space-y-4">
-                {[
-                  'Metodologías probadas y mejores prácticas',
-                  'Equipo multidisciplinario de especialistas',
-                  'Acompañamiento integral durante todo el proceso'
                 ].map((item, index) => (
                   <div key={index} className="flex items-center">
                     <CheckCircle className="h-6 w-6 text-teal-500 mr-3 flex-shrink-0" />
