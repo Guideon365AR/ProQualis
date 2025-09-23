@@ -172,8 +172,8 @@ function App() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '50+', label: 'Proyectos Exitosos', icon: Award },
-              { number: '15+', label: 'Años de Experiencia', icon: TrendingUp },
+              { number: 'Ágiles', label: 'Metodologías Ágiles', icon: Award },
+              { number: 'Expert', label: 'Equipo Especializado', icon: TrendingUp },
               { number: '100%', label: 'Satisfacción Cliente', icon: CheckCircle },
               { number: '24/7', label: 'Soporte Técnico', icon: Shield }
             ].map((stat, index) => (
