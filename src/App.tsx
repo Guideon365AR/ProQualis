@@ -82,13 +82,6 @@ function App() {
               ))}
             </nav>
 
-            <button
-              onClick={() => scrollToSection('contacto')}
-              className="bg-gradient-to-r from-teal-700 to-slate-700 text-white px-6 py-2 rounded-lg font-medium hover:from-teal-800 hover:to-slate-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
-            >
-              Consulta Gratuita
-            </button>
-
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
