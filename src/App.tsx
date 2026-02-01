@@ -550,7 +550,7 @@ function App() {
             <div>
               <div className="flex items-center space-x-3 mb-6">
                 <img 
-                  src="/logo-proq.png" 
+                  src="/logo_pq.png" 
                   alt="ProQualis" 
                   className="h-8 w-auto"
                 />
