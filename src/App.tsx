@@ -122,92 +122,41 @@ function App() {
 
       {/* Hero Section */}
       <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-teal-900"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20"></div>
-        
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-purple-500/30 to-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-teal-500/30 to-green-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-          <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-gradient-to-bl from-yellow-500/20 to-orange-500/20 rounded-full blur-3xl animate-pulse delay-500"></div>
-          <div className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-gradient-to-tr from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse delay-700"></div>
-          
-          {/* Floating geometric shapes */}
-          <div className="absolute top-20 left-20 w-4 h-4 bg-yellow-400/60 rounded-full animate-bounce delay-300"></div>
-          <div className="absolute top-40 right-32 w-6 h-6 bg-pink-400/60 rounded-full animate-bounce delay-700"></div>
-          <div className="absolute bottom-32 left-16 w-3 h-3 bg-green-400/60 rounded-full animate-bounce delay-1000"></div>
-          <div className="absolute bottom-20 right-20 w-5 h-5 bg-blue-400/60 rounded-full animate-bounce delay-500"></div>
-        </div>
+        <div className="absolute inset-0 bg-gradient-to-br from-teal-900 via-slate-800 to-slate-900"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            {/* Logo destacado */}
-            <div className="mb-8 flex justify-center">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur-xl scale-150"></div>
-                <img 
-                  src="/logo_pq.png" 
-                  alt="ProQualis" 
-                  className="relative h-24 w-24 md:h-32 md:w-32 mx-auto drop-shadow-2xl"
-                />
-              </div>
-            </div>
-            
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent animate-pulse">
-                Transformamos
-              </span>
-              <br />
-              <span className="bg-gradient-to-r from-teal-400 via-green-400 to-blue-400 bg-clip-text text-transparent">
-                Organizaciones
-              </span>
-            </h1>
-            
-            <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-5xl mx-auto leading-relaxed font-light">
-              Impulsamos la <span className="text-yellow-300 font-semibold">evolución digital</span> de empresas y organizaciones públicas
-              <br className="hidden md:block" />
-              con <span className="text-pink-300 font-semibold">soluciones innovadoras</span> y estrategias personalizadas.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-              <button
-                onClick={() => scrollToSection('servicios')}
-                className="bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center group backdrop-blur-sm"
-              >
-                Descubre Nuestros Servicios
-                <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform" />
-              </button>
-              <button
-                onClick={() => scrollToSection('casos-de-exito')}
-                className="bg-white/10 backdrop-blur-md text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all duration-300 border-2 border-white/30 hover:border-white/50 transform hover:scale-105"
-              >
-                Ver Casos de Éxito
-              </button>
-            </div>
-            
-            {/* Indicadores de características clave */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-                <div className="text-3xl mb-2">🚀</div>
-                <h3 className="text-white font-bold text-lg mb-2">Innovación</h3>
-                <p className="text-white/80 text-sm">Tecnologías de vanguardia</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-                <div className="text-3xl mb-2">⚡</div>
-                <h3 className="text-white font-bold text-lg mb-2">Agilidad</h3>
-                <p className="text-white/80 text-sm">Resultados rápidos y efectivos</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
-                <div className="text-3xl mb-2">🎯</div>
-                <h3 className="text-white font-bold text-lg mb-2">Precisión</h3>
-                <p className="text-white/80 text-sm">Soluciones personalizadas</p>
-              </div>
-            </div>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+            Transformación Digital
+            <span className="block text-teal-400">Integral</span>
+          </h1>
+          
+          <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
+            Impulsamos la evolución digital de empresas y organizaciones públicas
+            con soluciones innovadoras y estrategias personalizadas.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <button
+              onClick={() => scrollToSection('servicios')}
+              className="bg-teal-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-teal-800 transition-colors flex items-center group"
+            >
+              Descubre Nuestros Servicios
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </button>
+            <button
+              onClick={() => scrollToSection('casos-de-exito')}
+              className="bg-white/10 backdrop-blur-md text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-colors border border-white/30"
+            >
+              Ver Casos de Éxito
+            </button>
           </div>
+        </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer" onClick={() => scrollToSection('servicios')}>
-          <div className="w-8 h-12 border-2 border-white/60 rounded-full flex justify-center hover:border-white/80 transition-colors">
-            <div className="w-1.5 h-4 bg-gradient-to-b from-purple-400 to-pink-400 rounded-full mt-2 animate-pulse"></div>
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border-2 border-white/60 rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-white/60 rounded-full mt-2"></div>
           </div>
         </div>
       </section>
