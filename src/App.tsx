@@ -405,48 +405,48 @@ function App() {
       <section id="nosotros" className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                Sobre ProQualis
-              </h2>
-              <p className="text-xl text-slate-600 mb-6 leading-relaxed">
-                Somos una consultora especializada en transformación digital, impulsamos a organizaciones a evolucionar hacia el futuro.
-              </p>
-              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Nuestro enfoque integral combina estrategia, tecnología y gestión del cambio 
-                para garantizar transformaciones exitosas y sostenibles en el tiempo. Trabajamos 
-                de la mano con nuestros clientes para entender sus necesidades específicas y 
-                desarrollar soluciones personalizadas que generen valor real y duradero.
-              </p>
-            </div>
+      </section>
 
-            <div className="relative">
-              <div className="bg-gradient-to-br from-teal-600 to-slate-700 rounded-xl p-8 text-white">
-                <div className="grid grid-cols-2 gap-8">
-                  <div className="text-center">
-                    <Lightbulb className="h-12 w-12 mx-auto mb-4 text-orange-300" />
-                    <h4 className="text-lg font-semibold mb-2">Innovación</h4>
-                    <p className="text-slate-200">Soluciones tecnológicas de vanguardia</p>
+      {/* Contact Section */}
+      <section id="contacto" className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
+              Contacto
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+              ¿Listo para transformar tu organización? Contáctanos para una consulta gratuita 
+              y descubre cómo podemos impulsar tu evolución digital.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Contact Info */}
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-8">Información de Contacto</h3>
+              
+              <div className="space-y-6">
+                <div className="flex items-center">
+                  <div className="bg-slate-100 p-3 rounded-lg mr-4">
+                    <Mail className="h-6 w-6 text-slate-600" />
                   </div>
-                  <div className="text-center">
-                    <Users className="h-12 w-12 mx-auto mb-4 text-orange-300" />
-                    <h4 className="text-lg font-semibold mb-2">Experiencia</h4>
-                    <p className="text-slate-200">Equipo de especialistas certificados</p>
-                  </div>
-                  <div className="text-center">
-                    <Target className="h-12 w-12 mx-auto mb-4 text-orange-300" />
-                    <h4 className="text-lg font-semibold mb-2">Resultados</h4>
-                    <p className="text-slate-200">Enfoque en impacto medible</p>
-                  </div>
-                  <div className="text-center">
-                    <Shield className="h-12 w-12 mx-auto mb-4 text-orange-300" />
-                    <h4 className="text-lg font-semibold mb-2">Confianza</h4>
-                    <p className="text-slate-200">Soporte continuo y garantías</p>
+                  <div>
+                    <p className="font-medium text-slate-800">Email</p>
+                    <p className="text-slate-600">contacto@proqualis.com</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+
+                <div className="flex items-center">
+                  <div className="bg-slate-100 p-3 rounded-lg mr-4">
+                    <Phone className="h-6 w-6 text-slate-600" />
+                  </div>
+                  <div>
+                    <p className="font-medium text-slate-800">Teléfono</p>
+                    <p className="text-slate-600">+54 341 123-4567</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center">
                   <div className="bg-slate-100 p-3 rounded-lg mr-4">
                     <MapPin className="h-6 w-6 text-slate-600" />
                   </div>
