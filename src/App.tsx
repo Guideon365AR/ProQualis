@@ -354,6 +354,66 @@ function App() {
       <section id="nosotros" className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-8">
+                Sobre ProQualis
+              </h2>
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                Somos una consultora especializada en transformación digital, 
+                impulsamos a organizaciones a evolucionar hacia el futuro.
+              </p>
+              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+                Nuestro enfoque integral combina estrategia, tecnología y gestión del 
+                cambio para garantizar transformaciones exitosas y sostenibles en el 
+                tiempo. Trabajamos de la mano con nuestros clientes para entender sus 
+                necesidades específicas y desarrollar soluciones personalizadas que 
+                generen valor real y duradero.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-teal-600 to-slate-700 rounded-2xl p-8 text-white">
+              <div className="grid grid-cols-2 gap-8">
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-400 rounded-full mb-4">
+                    <Lightbulb className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">Innovación</h3>
+                  <p className="text-sm text-white/90">
+                    Soluciones tecnológicas de vanguardia
+                  </p>
+                </div>
+
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-400 rounded-full mb-4">
+                    <Users className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">Experiencia</h3>
+                  <p className="text-sm text-white/90">
+                    Equipo de especialistas certificados
+                  </p>
+                </div>
+
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-400 rounded-full mb-4">
+                    <Target className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">Resultados</h3>
+                  <p className="text-sm text-white/90">
+                    Enfoque en impacto medible
+                  </p>
+                </div>
+
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-400 rounded-full mb-4">
+                    <Shield className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">Confianza</h3>
+                  <p className="text-sm text-white/90">
+                    Soporte continuo y garantías
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
