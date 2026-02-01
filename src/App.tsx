@@ -447,68 +447,6 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-teal-800 to-slate-800">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            ¿Listo para Transformar tu Organización?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Comienza tu journey de transformación digital con una consultoría gratuita 
-            personalizada para tu organización.
-          </p>
-          <button
-            onClick={() => scrollToSection('contacto')}
-            className="bg-white text-teal-700 px-8 py-4 rounded-lg font-semibold hover:bg-slate-50 transition-all duration-300 transform hover:scale-105 shadow-xl"
-          >
-            Solicita tu Consulta Gratuita
-          </button>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contacto" className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-              Contacto
-            </h2>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Estamos aquí para ayudarte en tu proceso de transformación digital. 
-              Contáctanos para una consulta personalizada.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-16">
-            {/* Contact Info */}
-            <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-8">Información de Contacto</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-center">
-                  <div className="bg-teal-50 p-3 rounded-lg mr-4">
-                    <Mail className="h-6 w-6 text-teal-700" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-slate-800">Email</p>
-                    <p className="text-slate-600">contacto@proqualis.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center">
-                  <div className="bg-orange-50 p-3 rounded-lg mr-4">
-                    <Phone className="h-6 w-6 text-orange-500" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-slate-800">Teléfono</p>
-                    <p className="text-slate-600">+54 341 123-4567</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center">
                   <div className="bg-slate-100 p-3 rounded-lg mr-4">
                     <MapPin className="h-6 w-6 text-slate-600" />
                   </div>
