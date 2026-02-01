@@ -405,6 +405,29 @@ function App() {
       <section id="nosotros" className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
+                Sobre ProQualis
+              </h2>
+              <p className="text-xl text-slate-600 mb-8 leading-relaxed">
+                Somos especialistas en transformación digital con más de 15 años de experiencia 
+                ayudando a organizaciones a evolucionar y adaptarse al mundo digital.
+              </p>
+              <p className="text-slate-600 mb-6 leading-relaxed">
+                Nuestro enfoque integral combina tecnología de vanguardia, metodologías ágiles 
+                y un profundo entendimiento de las necesidades organizacionales para entregar 
+                soluciones que generan impacto real y duradero.
+              </p>
+            </div>
+            <div>
+              <img 
+                src="/logo_pq.png" 
+                alt="ProQualis Team" 
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Contact Section */}
