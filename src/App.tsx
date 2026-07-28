@@ -132,8 +132,9 @@ function App() {
           </h1>
           
           <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Impulsamos la evolución digital de empresas y organizaciones públicas
-            con soluciones innovadoras y estrategias personalizadas.
+            Ayudamos a las organizaciones a cumplir la misión para la que fueron creadas.
+            Desarrollando capacidades mediante conocimiento, metodologías y tecnologías para que las instituciones que sostienen el tejido social generen un mayor impacto.
+
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
