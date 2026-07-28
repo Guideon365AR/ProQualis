@@ -128,7 +128,7 @@ function App() {
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
           
-            <span className="block text-teal-400">Integral</span>
+            <span className="block text-teal-400"></span>
           </h1>
           
           <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
