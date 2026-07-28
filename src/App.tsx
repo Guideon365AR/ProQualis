@@ -127,7 +127,7 @@ function App() {
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Transformación Digital
+          
             <span className="block text-teal-400">Integral</span>
           </h1>
           
